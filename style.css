@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+	align-items: center;
+}
+#color-box{
+	width: 900px;
+	height: 600px;
+	margin-bottom: 20px;
+	background-color: yellow;
+}
+#change-color-btn{
+	padding: 20px 40px;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#change-color-btn:hover{
+	background-color: white;
+	color: black;
+	border: 3px solid black;
+	box-shadow: 10px 10px 72px -25px rgba(0,0,0,0.47);
+}
